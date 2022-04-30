@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create a To Do List - Final Project</title>
+	<style>
+	.line-through {
+		text-decoration: line-through;
+	}
+	</style>
+</head>
+<body>
+	<h1>Add a Todo List</h1>
+    <h3>Instructions: Enter a to do item, a list will be created</h3>
+	<form id="todoListForm" onsubmit="addTodoList()">
+		<label>Todo List:</label>
+		<input type="text" id="todo">
+		<input type="submit" value="Submit">
+	</form>
+	<h2>Todo List</h2>
+	<list id="list"></list>
+    <script src="todolist_final_project.js"></script>
+</body>
+</html>
